@@ -1,4 +1,4 @@
-import 'package:ev_station/size_config.dart';
+import 'package:ev_sathi/size_config.dart';
 import 'package:flutter/material.dart';
 
 
