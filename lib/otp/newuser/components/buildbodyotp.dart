@@ -8,3 +8,14 @@ import 'package:otp_text_field/otp_field.dart';
 import 'package:otp_text_field/style.dart';
 
 import '../../../global.dart';
+
+class BuildBodyNewUser extends StatefulWidget {
+  final String phoneNumber;
+  const BuildBodyNewUser({
+    Key? key,
+    required this.phoneNumber,
+  }) : super(key: key);
+
+  @override
+  State<BuildBodyNewUser> createState() => _BuildBodyNewUserState();
+}
