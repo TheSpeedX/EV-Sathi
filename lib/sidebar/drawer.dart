@@ -1,10 +1,11 @@
-import 'package:ev_station/global.dart';
-import 'package:ev_station/screen/auth/sign_in/login_form.dart';
-import 'package:ev_station/sidebar/components/fav.dart';
-import 'package:ev_station/sidebar/components/people.dart';
-import 'package:ev_station/sidebar/components/pricing_cal.dart';
+import 'package:ev_sathi/screen/auth/sign_in/login_form.dart';
+import 'package:ev_sathi/sidebar/components/people.dart';
+import 'package:ev_sathi/sidebar/components/pricing_cal.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
+import '../global.dart';
+import 'components/fav.dart';
 
 class NavigationDrawerWidget extends StatelessWidget {
   final padding = const EdgeInsets.symmetric(horizontal: 20);
@@ -148,29 +149,6 @@ class NavigationDrawerWidget extends StatelessWidget {
         ),
       );
 
-  // Widget buildSearchField() {
-  //   const color = Colors.white;
-
-  //   return TextField(
-  //     style: const TextStyle(color: color),
-  //     decoration: InputDecoration(
-  //       contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-  //       hintText: 'Search',
-  //       hintStyle: const TextStyle(color: color),
-  //       prefixIcon: const Icon(Icons.search, color: color),
-  //       filled: true,
-  //       fillColor: Colors.white12,
-  //       enabledBorder: OutlineInputBorder(
-  //         borderRadius: BorderRadius.circular(5),
-  //         borderSide: BorderSide(color: color.withOpacity(0.7)),
-  //       ),
-  //       focusedBorder: OutlineInputBorder(
-  //         borderRadius: BorderRadius.circular(5),
-  //         borderSide: BorderSide(color: color.withOpacity(0.7)),
-  //       ),
-  //     ),
-  //   );
-  // }
 
   Widget buildMenuItem({
     required String text,
