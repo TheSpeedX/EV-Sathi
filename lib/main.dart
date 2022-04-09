@@ -31,21 +31,21 @@ class MyApp extends StatelessWidget {
               // change the focus border color when the errorText is set
               errorColor: Colors.purple,
             ),
-            theme: ThemeData(
-              primarySwatch: Colors.blue,
-              inputDecorationTheme: const InputDecorationTheme(
-                filled: true,
-                fillColor: Colors.white38,
-                border: InputBorder.none,
-                hintStyle: TextStyle(
-                  color: Colors.white,
-                ),
-                contentPadding: EdgeInsets.symmetric(
-                  vertical: defpaultPadding * 1.2,
-                  horizontal: defpaultPadding,
-                ),
-              ),
-            ),
+            // theme: ThemeData(
+              // primarySwatch: Colors.blue,
+              // inputDecorationTheme: const InputDecorationTheme(
+                // filled: true,
+                // fillColor: Colors.white38,
+                // border: InputBorder.none,
+                // hintStyle: TextStyle(
+                  // color: Colors.white,
+                // ),
+                // contentPadding: EdgeInsets.symmetric(
+                  // vertical: defpaultPadding * 1.2,
+                  // horizontal: defpaultPadding,
+                // ),
+              // ),
+            // ),
             home:  Home(),
           )),
     );
