@@ -35,3 +35,20 @@ const String matchPassError = "Passwords don't match";
 const String namelNullError = "Please Enter your name";
 const String phoneNumberNullError = "Please Enter your phone number";
 const String addressNullError = "Please Enter your address";
+
+
+//Splash Screen
+const String backtText = "Back";
+class SizeConfig {
+  static late double screenWidth;
+  static late double screenHeight;
+}
+
+
+double getRelativeHeight(double percentage) {
+  return percentage * SizeConfig.screenHeight;
+}
+
+double getRelativeWidth(double percentage) {
+  return percentage * SizeConfig.screenWidth;
+}
