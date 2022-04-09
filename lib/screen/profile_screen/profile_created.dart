@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:ev_station/screen/vehicle_add/vech_add_display.dart';
+import '../vehicle_add/vech_add_display.dart';
 
 class ProfileCreated extends StatelessWidget {
   final String number;
