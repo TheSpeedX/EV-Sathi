@@ -1,6 +1,6 @@
 {
-    "name": "ev_station",
-    "short_name": "ev_station",
+    "name": "ev_sathi",
+    "short_name": "ev_sathi",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

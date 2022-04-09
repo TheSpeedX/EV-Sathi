@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(ev_station LANGUAGES CXX)
+project(ev_sathi LANGUAGES CXX)
 
-set(BINARY_NAME "ev_station")
+set(BINARY_NAME "ev_sathi")
 
 cmake_policy(SET CMP0063 NEW)
 
