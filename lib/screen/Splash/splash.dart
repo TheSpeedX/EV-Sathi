@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import '../../global.dart';
 import '../../size_config.dart';
+import '../dashboard.dart';
 import 'components/body.dart';
 
 class SplashScreen extends StatefulWidget {

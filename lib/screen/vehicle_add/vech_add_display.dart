@@ -1,6 +1,5 @@
+import 'package:ev_sathi/screen/vehicle_add/vech.dart';
 import 'package:flutter/material.dart';
-
-import 'package:ev_station/screen/vehicle_add/vech.dart';
 
 class VechScreenAdditionDisplay extends StatelessWidget {
   final String number;
