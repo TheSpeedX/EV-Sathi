@@ -1,5 +1,6 @@
-import 'package:ev_station/components/errordialog.dart';
 import 'package:flutter/material.dart';
+
+import '../../../components/errordialog.dart';
 
 class BuildPricingCalBody extends StatefulWidget {
   //final String phoneNumber;
@@ -231,61 +232,4 @@ class _BuildPricingCalBodyState extends State<BuildPricingCalBody> {
       ),
     );
   }
-
-  // void validateForm(BuildContext context) async {
-  //   if (firstName.text.isNotEmpty &&
-  //       lastName.text.isNotEmpty &&
-  //       email.text.isNotEmpty &&
-  //       pincode.text.isNotEmpty) {
-  //     showDialog(
-  //         context: context,
-  //         builder: (context) {
-  //           return const LoadingDialog(message: "",);
-  //         });
-  //     await saveDataToFirebase(context);
-  //   } else {
-  //     showDialog(
-  //         context: context,
-  //         builder: (context) {
-  //           return const ErrorDialog(
-  //             message: "Please fill all details",
-  //           );
-  //         });
-  //   }
-  // }
-
-  // saveDataToFirebase(BuildContext context) async {
-
-  //   //TODOS: SETTING WILL BE HAPPEN AFTER VECHICLE ADDITION.
-  //   //TODOS: IF NEW USER LEFT VECH ADD AND CLOSE APP THEN AGAIN HE/SHE HAVE TO FILL THIS.
-  //   // await FirebaseFirestore.instance
-  //   //     .collection("phone")
-  //   //     .doc(widget.phoneNumber)
-  //   //     .set(
-  //   //       ({
-  //   //         "userEmail": email.text.trim(),
-  //   //         "fullName": firstName.text.trim() + " " + lastName.text.trim(),
-  //   //         "phoneNumber": widget.phoneNumber.trim(),
-  //   //         "pincode": pincode.text.trim(),
-  //   //       }),
-  //   //     );
-
-  //   SharedPreferences? sharedPreferences =
-  //       await SharedPreferences.getInstance();
-  //   await sharedPreferences.setString("email", email.text.trim());
-  //   await sharedPreferences.setString(
-  //       "name", firstName.text.trim() +" " + lastName.text.trim());
-  //   await sharedPreferences.setString("phoneNumber", widget.phoneNumber);
-  //   await sharedPreferences.setString("pincode", pincode.text.trim());
-  //   Navigator.pop(context);
-  //   Navigator.pushAndRemoveUntil(
-  //     context,
-  //     MaterialPageRoute(
-  //       builder: (context) =>  ProfileCreated(number: widget.phoneNumber),
-  //     ),
-  //     (route) => false,
-  //   );
-  //  // showSnackBar(context, "LoggedIn Sucessfully");
-  //   // }
-  // }
 }
