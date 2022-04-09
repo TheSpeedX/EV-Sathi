@@ -1,6 +1,6 @@
-import 'package:ev_station/global.dart';
-import 'package:ev_station/screen/mappage.dart';
+import 'package:ev_sathi/screen/mappage.dart';
 import 'package:flutter/material.dart';
+import '../global.dart';
 import '../sidebar/drawer.dart';
 import '../sidebar/components/top_header.dart';
 
@@ -56,31 +56,6 @@ class _DashBoardState extends State<DashBoard> {
   }
 
   TextEditingController namecontroller = TextEditingController();
-
-  // createPopUpDialog(BuildContext context) {
-  //   return showDialog(
-  //       context: context,
-  //       builder: (context) {
-  //         return AlertDialog(
-  //           title: const Text("Your name"),
-  //           content: TextField(
-  //             controller: namecontroller,
-  //           ),
-  //           actions: [
-  //             MaterialButton(
-  //               onPressed: () async {
-  //                 Navigator.pop(context);
-  //                 await sharedPreferences!.setBool("isNewUser", false);
-  // setState(() {});
-  //               },
-  //               elevation: 5.0,
-  //               child: const Text("Submit"),
-  //             ),
-  //           ],
-  //         );
-  //       });
-  // }
-
   // ignore: unused_field
   final GlobalKey<ScaffoldState> _globalKey = GlobalKey<ScaffoldState>();
 
@@ -91,7 +66,7 @@ class _DashBoardState extends State<DashBoard> {
     return Scaffold(
       drawer: const NavigationDrawerWidget(),
       body: Stack(
-        children:  [
+        children: const [
           //TopHeader(),
           // MapPage(),
           Positioned.fill(
@@ -100,7 +75,6 @@ class _DashBoardState extends State<DashBoard> {
           TopHeader(),
         ],
       ),
-
     );
   }
 }
