@@ -1,8 +1,4 @@
 // ignore_for_file: prefer_const_constructors
-import 'package:ev_station/global.dart';
-import 'package:ev_station/models/nearby_ev_station_results.dart';
-import 'package:ev_station/screen/MarkerContainer/available_connectors.dart';
-import 'package:ev_station/screen/contants/map_key.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -12,6 +8,11 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:http/http.dart' as https;
 import 'dart:convert';
+
+import '../global.dart';
+import '../models/nearby_ev_station_results.dart';
+import 'MarkerContainer/available_connectors.dart';
+import 'constant/map_key.dart';
 
 //TODOS: last start
 // double a = sharedPreferences!.getDouble("lat") ?? 20.5937;
@@ -77,53 +78,6 @@ class _MapPageState extends State<MapPage> {
   double toppading = 350;
   double bottomPadding = 300;
   late GoogleMapController mapController;
-  // double bottompadding = 500;
-  // ignore: prefer_final_fields, unused_field
-
-  //TODOS: 1 start
-  // Completer<GoogleMapController> _controllerGoogleMap = Completer();
-  // late GoogleMapController newGooglemapcontroller;
-  // late Position currentPosition;
-  // var geolocator = Geolocator();
-  // void locatePosition() async {
-  //   // ignore: unused_local_variable
-  //   Position position = await Geolocator.getCurrentPosition(
-  //     desiredAccuracy: LocationAccuracy.best,
-  //   );
-  //   currentPosition = position;
-
-  //   LatLng latLngPosition = LatLng(position.latitude, position.longitude);
-  //   await sharedPreferences!.setDouble("lat", position.latitude);
-  //   await sharedPreferences!.setDouble("long", position.longitude);
-  //   // ignore: avoid_print
-  //   print(position.latitude);
-  //   // ignore: avoid_print
-  //   print(position.longitude);
-
-  //   CameraPosition cameraPosition =
-  //       // ignore: unnecessary_new
-  //       new CameraPosition(target: latLngPosition, zoom: 20);
-  //   newGooglemapcontroller
-  //       .animateCamera(CameraUpdate.newCameraPosition(cameraPosition));
-  // }
-
-  //TODOS: 1 end
-
-  // ignore: unused_field
-
-  //TODOS: 2 start
-
-  // static final CameraPosition _kGooglePlex = CameraPosition(
-  //   target: sourceLatitue,
-  //   zoom: 14.4746,
-  // );
-  // @override
-  // void initState() {
-  //   super.initState();
-  // }
-  //TODOS: 2 end
-
-  // ignore: prefer_typing_uninitialized_variables
   var currentLocation;
 
   requestPermission() async {
@@ -300,34 +254,6 @@ class _MapPageState extends State<MapPage> {
     // print(result.map((e) => NearbyEVStationResults.fromJson(e)).toList());
     //return result.map((e) => NearbyEVStationResults.fromJson(e)).toList();
   }
-
-  // initMarker(client) {
-  //   allMarkers.add(
-  //     Marker(
-  //       markerId: MarkerId(client['name']),
-  //       draggable: false,
-  //       infoWindow:
-  //           InfoWindow(title: client['name'], snippet: client['address']),
-  //       position:
-  //           LatLng(client['location'].latitude, client['location'].longitude),
-  //     ),
-  //   );
-  // }
-
-  // Future<List<NearbyEVStationResults>> getNearby(
-  //     double longitude, double latitude) async {
-  //   print("Hi Nearby");
-  //   String url =
-  //       'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=$latitude,$longitude&radius=30000&type=electric_vehicle_charging_station&keyword=electric_vehicle_charging_station&key=';
-
-  //   var response = await http.get(Uri.https("https", url));
-  //   var values = jsonDecode(response.body);
-  //   final List result = values['results'];
-  //   print("Inside getNearby");
-  //   print(result);
-  //   print(result.map((e) => NearbyEVStationResults.fromJson(e)).toList());
-  //   return await result.map((e) => NearbyEVStationResults.fromJson(e)).toList();
-  // }
 
   void getLocation() {
     Geolocator.getCurrentPosition().then((currrloc) async {
@@ -642,41 +568,6 @@ class _MapPageState extends State<MapPage> {
                     ),
                   ),
                 ),
-                // Container(
-                //   height: 25,
-                //   margin: const EdgeInsets.only(right: 10.0),
-                //   decoration: BoxDecoration(
-                //     borderRadius: BorderRadius.circular(20.0),
-                //     color: Colors.white,
-                //     boxShadow: const [
-                //       BoxShadow(color: Colors.green, spreadRadius: 2),
-                //       // BoxShadow(color: Colors.yellow, spreadRadius: 5),
-                //     ],
-                //   ),
-                //   child: Row(
-                //     // mainAxisAlignment: MainAxisAlignment.start,
-                //     // crossAxisAlignment: CrossAxisAlignment.start,
-                //     // crossAxisAlignment: CrossAxisAlignment.end,
-                //     mainAxisAlignment: MainAxisAlignment.start,
-                //     crossAxisAlignment: CrossAxisAlignment.start,
-                //     children: [
-                //       const Center(
-                //         child: Padding(
-                //           padding: EdgeInsets.only(left: 8.0),
-                //           child: Text("Navigate"),
-                //         ),
-                //       ),
-                //       IconButton(
-                //         onPressed: () {},
-                //         icon: const Icon(
-                //           Icons.navigation,
-                //           size: 20,
-                //         ),
-                //       ),
-                //     ],
-                //   ),
-                // ),
-                // SizedBox(width: 0.2,),
               ],
             ),
           ),
