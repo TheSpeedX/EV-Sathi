@@ -1,7 +1,6 @@
+import 'package:ev_sathi/screen/profile_screen/profile_header.dart';
+import 'package:ev_sathi/screen/profile_screen/profilebody.dart';
 import 'package:flutter/material.dart';
-
-import 'package:ev_station/screen/profile_screen/profile_header.dart';
-import 'package:ev_station/screen/profile_screen/profilebody.dart';
 
 class Profile extends StatelessWidget {
   final String phoneNumber;
