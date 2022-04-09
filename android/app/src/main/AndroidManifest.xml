@@ -5,9 +5,10 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
    <application
-        android:label="ev_sathi"
+        android:label="EV Sathi"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBF3m2HRIC_BPA4Vc-MB0OucEhCCXD_dCI"/> 
         <activity
             android:name=".MainActivity"
             android:exported="true"
