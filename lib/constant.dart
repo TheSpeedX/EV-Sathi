@@ -2,6 +2,7 @@ import 'package:ev_station/size_config.dart';
 import 'package:flutter/material.dart';
 
 
+
 const primaryColor = Color.fromARGB(15, 75, 21, 161);
 const primaryLightColor = Color(0xFFFECDEF);
 const primaryGradientColor = LinearGradient(
@@ -14,7 +15,15 @@ const primaryGradientColor = LinearGradient(
 );
 const secondaryColor = Color(0xFF979797);
 const textColor = Color(0xFF757575);
-
+const animationDuration = Duration(milliseconds: 200);
+final headingStyle = TextStyle(
+  fontSize: getPropotionateScreenHeight(28),
+  fontWeight: FontWeight.bold,
+  color: Colors.black,
+  height: 1.5,
+);
+const double defpaultPadding = 16.0;
+const defaultDuration = Duration(milliseconds: 250);
 
 final RegExp emailValidatorRegExp =
     RegExp(r"^[a-zA-Z0-9.]+@[a-zA-Z0-9]+\.[a-zA-Z]+");
