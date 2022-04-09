@@ -1,5 +1,5 @@
-import 'package:ev_station/otp/newuser/newuserotp.dart';
 import 'package:flutter/material.dart';
+import '../../../otp/newuser/newuserotp.dart';
 import '../../../otp/olduserotp.dart';
 
 //TODOS: if we have newUser True --->
