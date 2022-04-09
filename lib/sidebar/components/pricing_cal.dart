@@ -1,5 +1,5 @@
-import 'package:ev_station/sidebar/components/pric_components/price_cal_body.dart';
-import 'package:ev_station/sidebar/components/pric_components/pricing_header.dart';
+import 'package:ev_sathi/sidebar/components/pric_components/price_cal_body.dart';
+import 'package:ev_sathi/sidebar/components/pric_components/pricing_header.dart';
 import 'package:flutter/material.dart';
 
 class PricingCal extends StatelessWidget {
