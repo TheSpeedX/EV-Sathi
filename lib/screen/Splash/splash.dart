@@ -1,9 +1,8 @@
 import 'dart:async';
-import 'package:ev_station/Screen/Splash/components/body.dart';
-import 'package:ev_station/global.dart';
-import 'package:ev_station/screen/dashboard.dart';
-import 'package:ev_station/size_config.dart';
 import 'package:flutter/material.dart';
+import '../../global.dart';
+import '../../size_config.dart';
+import 'components/body.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -39,14 +38,6 @@ class _SplashScreenState extends State<SplashScreen> {
       }
       //TODOS: If firebase have user then send to home page otherwise se
       //TODOS: nd to Splash 1-3 page to sign In.(call BODY)
-
-      // if (firebaseAuth.currentUser != null) {
-      //   Navigator.pushReplacement(
-      //       context, MaterialPageRoute(builder: (context) => HomePage()));
-      // } else {
-      //   Navigator.pushReplacement(
-      //       context, MaterialPageRoute(builder: (context) => AuthScreen()));
-      // }
     });
   }
 
