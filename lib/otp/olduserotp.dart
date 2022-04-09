@@ -8,3 +8,25 @@ class OldUserOTPScreen extends StatefulWidget {
     Key? key,
     required this.phone,
   }) : super(key: key);
+
+  @override
+  State<OldUserOTPScreen> createState() => _OldUserOTPScreenState();
+}
+
+class _OldUserOTPScreenState extends State<OldUserOTPScreen> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      resizeToAvoidBottomInset: false,
+      body: Stack(
+        children: [
+          const HeaderOTPScreenOld(),
+          BuildBodyOTPScreen(
+            phoneNumber: widget.phone,
+          ),
+          // BuildBodyOTP(),
+        ],
+      ),
+    );
+  }
+}
