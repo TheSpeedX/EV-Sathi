@@ -1,12 +1,9 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:ev_station/components/loading_dialog.dart';
-import 'package:ev_station/screen/profile_screen/profile_created.dart';
+import 'package:ev_sathi/screen/profile_screen/profile_created.dart';
 import 'package:flutter/material.dart';
-import 'package:ev_station/components/errordialog.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../../global.dart';
-
+import '../../components/errordialog.dart';
+import '../../components/loading_dialog.dart';
 class BuildProfileBody extends StatefulWidget {
   final String phoneNumber;
   const BuildProfileBody({
