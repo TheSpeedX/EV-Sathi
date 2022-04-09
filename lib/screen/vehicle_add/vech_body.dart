@@ -1,10 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
-import 'package:ev_station/components/errordialog.dart';
-import 'package:ev_station/components/loading_dialog.dart';
-import 'package:ev_station/global.dart';
-import 'package:ev_station/screen/dashboard.dart';
+import '../../components/errordialog.dart';
+import '../../components/loading_dialog.dart';
+import '../../global.dart';
+import '../dashboard.dart';
 
 class VechileBody extends StatefulWidget {
   final String phoneNumber;
@@ -196,9 +196,6 @@ class _VechileBodyState extends State<VechileBody> {
   }
 
   saveDataToFirebaseAndLocally() async {
-    // SharedPreferences s = await SharedPreferences.getInstance();
-    // String number = await sharedPreferences.getString("phoneNumber");
-    //getString("phoneNumber")!
     await FirebaseFirestore.instance
         .collection("phone")
         .doc(widget.phoneNumber)
@@ -230,60 +227,4 @@ class _VechileBodyState extends State<VechileBody> {
     );
     showSnackBar(context, "LoggedIn Sucessfully");
   }
-
-  // void validateForm(BuildContext context) async {
-  //   if (firstName.text.isNotEmpty &&
-  //       lastName.text.isNotEmpty &&
-  //       email.text.isNotEmpty &&
-  //       pincode.text.isNotEmpty) {
-  //     showDialog(
-  //         context: context,
-  //         builder: (context) {
-  //           return const LoadingDialog(
-  //             message: "",
-  //           );
-  //         });
-  //     await saveDataToFirebase(context);
-  //   } else {
-  //     showDialog(
-  //         context: context,
-  //         builder: (context) {
-  //           return const ErrorDialog(
-  //             message: "Please fill all details",
-  //           );
-  //         });
-  //   }
-  // }
-
-  // saveDataToFirebase(BuildContext context) async {
-  // await FirebaseFirestore.instance
-  //     .collection("phone")
-  //     .doc(widget.phoneNumber)
-  //     .set(
-  //       ({
-  //         "userEmail": email.text.trim(),
-  //         "fullName": firstName.text.trim() + " " + lastName.text.trim(),
-  //         "phoneNumber": widget.phoneNumber.trim(),
-  //         "pincode": pincode.text.trim(),
-  //       }),
-  //     );
-
-  // SharedPreferences? sharedPreferences =
-  //     await SharedPreferences.getInstance();
-  // await sharedPreferences.setString("email", email.text.trim());
-  // await sharedPreferences.setString(
-  //     "name", firstName.text.trim() + " " + lastName.text.trim());
-  // await sharedPreferences.setString("phoneNumber", widget.phoneNumber);
-  // await sharedPreferences.setString("pincode", pincode.text.trim());
-  // Navigator.pop(context);
-  // Navigator.pushAndRemoveUntil(
-  //   context,
-  //   MaterialPageRoute(
-  //     builder: (context) => const ProfileCreated(),
-  //   ),
-  //   (route) => false,
-  // );
-  // showSnackBar(context, "LoggedIn Sucessfully");
-  //   // }
-  // }
 }
