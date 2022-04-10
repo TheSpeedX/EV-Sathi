@@ -162,5 +162,55 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+## Project Structure
+
+This project follows MVVM architecture with following structure:
+
+```text
+EV-Sathi-HACKKJSCE/lib/
+├── components/                                    # resuable widget i.e buttons,card,error dialog,loading dialog, marker design, text field.
+     ├── button.dart
+     ├── button_nav_route.dart
+     ├── card.dart
+     ├── errordialog.dart
+     ├── loading_dialog.dart
+     ├── on_marker_tap.dart
+     ├── textfiled.dart
+     └── progress_bar.dart                           
+├── models/   
+     └── nearby_ev_station_results.dart      # model class for fetching the near by ev station.                     
+├── otp/                            # Widgets Involved in Designing OTP Screen, Sending OTP To user,verifying otp and logging them sucessfully.
+      ├── components/
+      └── ....
+      ├── newuser/
+      └──....
+      └── olduser.dart
+├── screen/           #Various screen involved.
+      ├── auth/ 
+      └── ....      #screen involved in authorization i.e, login, sign in.
+      ├── constant/
+      └── ...          #constant needed by auth screen
+      ├── marker_container/
+      └── ...                    # Designing Maker Container.
+      ├── profile_screen/
+      └── ...                   #screen involved in Profiling.
+      ├── splash/
+      └── ...                  #screen involved in Splash Screen..
+      ├── vechile_add/
+      └── ...                  #screen involved in Vechile Addition.
+      ├── dashboard.dart        # main part of driving functionality.
+      └── map_page.dart         # Map Page.  
+├── sidebar/                              
+|   ├── components/  
+    └── ...             # screen involved in side drawer
+|   └── drawaer.dart/         # main part of drawer.                   
+├── constant.dart/            #constant needed by splash screen.
+├── global.dart/              #global file needed for all Widget.             
+├── routes.dart               #routes for Screens.   
+├── size_config.dart          #size config for reponsivness.
+└── main.dart                  # Heart of this App.
+```
+
+
 
 
