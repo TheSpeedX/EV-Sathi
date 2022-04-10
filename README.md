@@ -7,9 +7,7 @@
 
   <p align="center">
     Your Solution to Re-Charging EV Vehicles.
-    <br />
   </p>
-  <br />
 <img src="https://img.shields.io/github/languages/code-size/TheSpeedX/EV-Sathi?style=flat-square" alt="Code size" />
 <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/TheSpeedX/EV-Sathi?style=flat-square">
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/TheSpeedX/EV-Sathi?style=flat-square">
@@ -35,7 +33,7 @@
       <a href="#about-the-project">About The Project</a>
     </li>
     <li>
-      <a href="#Key-Features-Implemented">Key Features Implemented</a>
+      <a href="#key-features-implemented">Key Features Implemented</a>
     </li>
     <li>
       <a href="#tech-stacks">Tech Stacks</a>
@@ -67,7 +65,7 @@ Suppose you are a EV owner, you are out on a trip and you suddenly realise that 
 Our application uses a cost-effective solution for EV owners to find the nearest charging station and recharge their vehicles. It also supports booking of charging stations for those who want to recharge their vehicles at a scheduled time.The dynamic nature of the application makes it easy to manage multiple vehicles from one device.
 
 
-### Key Features Implemented
+## Key Features Implemented
 
 - Awesome UX and easy to use friendly interface
 
@@ -103,7 +101,7 @@ Our application uses a cost-effective solution for EV owners to find the nearest
 
 ## Getting Started
 
-You can test Ev Sathi in your own development environment. This section shows you how:
+You can test EV Sathi in your own development environment. This section shows you how:
 
 ## Prerequisites
 
@@ -215,7 +213,7 @@ EV-Sathi/lib/
 
 ### View Demo
 
-[![EV Sathi Demo](https://img.youtube.com/vi/qD1OsIGTaZE/maxresdefault.jpg)](https://youtu.be/L6JABaiIMrI)
+[![EV Sathi Demo](https://img.youtube.com/vi/L6JABaiIMrI/maxresdefault.jpg)](https://youtu.be/L6JABaiIMrI)
 
 
 ## Contributing
