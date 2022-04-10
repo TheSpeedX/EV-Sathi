@@ -56,3 +56,24 @@ We examine a new, upcoming generation of vehicles that run on electric power sup
 
 India has seen a significant increase in the number of electric vehicles (EVs) since the past year. Yet the EV owners still face trouble while trying to recharge their vehicles.
 
+## About The Project
+
+<div align="center">
+<img alt="EV-Sathi-HACKKJSCE Animation" src="https://user-images.githubusercontent.com/42498830/162531758-23076c0b-33ac-4e56-99f3-7a8960332537.gif">
+</div>
+
+Suppose you are a EV owner, you are out on a trip and you suddenly realise that you have to recharge your EV. You are not sure where to recharge your EV. You are not sure if the EV charging station is open or has the suitable charger for your vehicle. This is where EV-Sathi comes in.
+
+Our application uses a cost-effective solution for EV owners to find the nearest charging station and recharge their vehicles. It also supports booking of charging stations for those who want to recharge their vehicles at a scheduled time.The dynamic nature of the application makes it easy to manage multiple vehicles from one device.
+
+## About The Project
+
+<div align="center">
+<img alt="EV-Sathi-HACKKJSCE Animation" src="https://user-images.githubusercontent.com/42498830/162531758-23076c0b-33ac-4e56-99f3-7a8960332537.gif">
+</div>
+
+Suppose you are a EV owner, you are out on a trip and you suddenly realise that you have to recharge your EV. You are not sure where to recharge your EV. You are not sure if the EV charging station is open or has the suitable charger for your vehicle. This is where EV-Sathi comes in.
+
+Our application uses a cost-effective solution for EV owners to find the nearest charging station and recharge their vehicles. It also supports booking of charging stations for those who want to recharge their vehicles at a scheduled time.The dynamic nature of the application makes it easy to manage multiple vehicles from one device.
+
+
