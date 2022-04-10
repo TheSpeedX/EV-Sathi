@@ -94,7 +94,73 @@ Our application uses a cost-effective solution for EV owners to find the nearest
 
 - Estimate cost and time for your EV in a journey with an awesome Pricing Calculator.
 
+### Tech Stacks
 
+**Mobile Applicaton:**
+
+- Flutter
+- Firebase
+- Firestore Database
+- Google Cloud Platform
+- Google Maps API
+- Places API
+- Direction API
+
+**Dynamic Pricing:**
+- ML Model used- Multi-Regression Model, Genetic Algorithm
+- Dataset used- EV Station pricing dataset, Real-time Queue at the EV Station based on Maps API data.
+
+## Getting Started
+
+You can test Ev Sathi in your own development environment. This section shows you how:
+
+## Prerequisites
+
+You'll need to set up the IDE and mobile device emulator, or any mobile testing device on your local system.
+
+## Prerequisites
+
+You'll need to set up the IDE and mobile device emulator, or any mobile testing device on your local system.
+
+**Flutter Environment: You'll need to have the following installed:**
+
+1. [Flutter SDK](https://flutter.dev/docs/get-started/install)
+2. [Android Studio](https://developer.android.com/studio)
+
+***Ensure you are testing the app using Flutter version [2.10.3](https://docs.flutter.dev/development/tools/sdk/releases?tab=windows) and above.***
+
+*For checking flutter version:*
+
+- Run flutter --version in terminal
+
+If your version is not upto date, follow these steps to upgrade:
+
+- flutter channel stable to switch to the channel having stable version of flutter updates
+- flutter upgrade to get the latest flutter version
+
+### *Development Environment: For setting up the development environment, follow the steps given below.*
+
+- Clone this repository after forking using git clone <https://github.com/pnkr01/EV-Sathi-HACKKJSCE.git>
+- cd into `EV-Sathi-HACKKJSCE`
+- Check for flutter setup and connected devices using `flutter doctor`
+- Get all the dependencies using `flutter pub get`
+- Go Inside `lib --> screen --> contsant` .
+- Place your Google Map API Key.
+- How To Get Google Map API Key? For setting the Map, follow the steps given below.
+
+  1. [Sign In to Google Account](https://accounts.google.com/servicelogin).
+  2. [Go To Google Console](https://console.cloud.google.com/).
+     - Enable Direction Api.
+     - Enable Places Api.
+  3. [Go to Credentials](https://console.cloud.google.com/apis/credentials)
+  4. Click on create credentials.
+  5. Copy the API Key.
+
+- **Run the app using `flutter run`**
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
 
 
 
