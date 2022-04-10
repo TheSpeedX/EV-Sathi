@@ -17,7 +17,7 @@
 <img alt="GitHub Repo issues" src="https://img.shields.io/github/issues/TheSpeedX/EV-Sathi?style=flat-square">
   
 <br />
-<a href="https://www.youtube.com/watch?v=qD1OsIGTaZE">View Demo</a>
+<a href="https://www.youtube.com/watch?v=L6JABaiIMrI">View Demo</a>
 ·
 <a href="https://github.com/TheSpeedX/EV-Sathi/issues">Report Bug</a>
 ·
@@ -236,9 +236,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Team Name - Team Stellar Hackers **(HackStack Hackathon 2022)**
 
-Project Link: [https://github.com/pnkr01/EV-Sathi-HACKKJSCE/](https://github.com/pnkr01/EV-Sathi-HACKKJSCE/)
+Project Link: [https://github.com/TheSpeedX/EV-Sathi](https://github.com/TheSpeedX/EV-Sathi/)
 
-Youtube link: [https://www.youtube.com/watch?v=qD1OsIGTaZE](https://youtu.be/L6JABaiIMrI)
+Youtube link: [https://www.youtube.com/watch?v=L6JABaiIMrI](https://youtu.be/L6JABaiIMrI)
 
 Made with ♥ by Team Stellar Hackers
 
