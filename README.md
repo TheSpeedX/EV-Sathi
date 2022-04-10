@@ -10,11 +10,11 @@
     <br />
   </p>
   <br />
-<img src="https://img.shields.io/github/languages/code-size/pnkr01/EV-Sathi-HACKKJSCE?style=flat-square" alt="Code size" />
-<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/pnkr01/EV-Sathi-HACKKJSCE?style=flat-square">
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/pnkr01/EV-Sathi-HACKKJSCE?style=flat-square">
-<img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/pnkr01/EV-Sathi-HACKKJSCE?style=flat-square">
-<img alt="GitHub Repo issues" src="https://img.shields.io/github/issues/pnkr01/EV-Sathi-HACKKJSCE?style=flat-square">
+<img src="https://img.shields.io/github/languages/code-size/TheSpeedX/EV-Sathi?style=flat-square" alt="Code size" />
+<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/TheSpeedX/EV-Sathi?style=flat-square">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/TheSpeedX/EV-Sathi?style=flat-square">
+<img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/TheSpeedX/EV-Sathi?style=flat-square">
+<img alt="GitHub Repo issues" src="https://img.shields.io/github/issues/TheSpeedX/EV-Sathi?style=flat-square">
   
 <br />
 <a href="https://www.youtube.com/watch?v=qD1OsIGTaZE">View Demo</a>
