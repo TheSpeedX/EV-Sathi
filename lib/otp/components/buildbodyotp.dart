@@ -1,12 +1,12 @@
 import 'dart:async';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:ev_station/components/loading_dialog.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:otp_text_field/otp_field.dart';
 import 'package:otp_text_field/style.dart';
+import '../../components/loading_dialog.dart';
 import '../../global.dart';
 import '../../screen/dashboard.dart';
 
