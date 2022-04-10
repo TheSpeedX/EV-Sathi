@@ -37,14 +37,6 @@ class _HeaderForSignState extends State<HeaderForSign> {
                 SizedBox(
                   width: size.width / 3.5,
                 ),
-                // IconButton(
-                //   onPressed: () {
-                //     Scaffold.of(context).openDrawer();
-                //   },
-                //   icon: const Icon(Icons.person),
-                //   color: Colors.white,
-                //   iconSize: 30,
-                // ),
                 const Text(
                   "Ev Sathi",
                   style: TextStyle(
@@ -54,17 +46,7 @@ class _HeaderForSignState extends State<HeaderForSign> {
                     color: Colors.white,
                   ),
                 ),
-                // Padding(
-                //   padding: const EdgeInsets.only(right: 10.0),
-                //   child: IconButton(
-                //     onPressed: () {},
-                //     icon: const ImageIcon(
-                //       AssetImage("assets/images/filter.png"),
-                //       color: Colors.white,
-                //       size: 30.0,
-                //     ),
-                //   ),
-                // ),
+                
               ],
             ),
           ),
