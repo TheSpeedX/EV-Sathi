@@ -193,6 +193,7 @@ class _BuildPricingCalBodyState extends State<BuildPricingCalBody> {
                       // print(batteryCap);
                       // print(publicCap);
                       // print((batteryCap! / publicCap!) * 60);
+                      // ignore: avoid_print
                       print(batteryCap);
                       double cost = batteryCap! * 6.5;
                       double time = (batteryCap! / publicCap!) * 60;

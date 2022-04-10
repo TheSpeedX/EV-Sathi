@@ -1,4 +1,4 @@
-import 'package:ev_station/components/progress_bar.dart';
+import 'package:ev_sathi/components/progress_bar.dart';
 import 'package:flutter/material.dart';
 
 class LoadingDialog extends StatelessWidget {
