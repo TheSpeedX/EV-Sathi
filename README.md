@@ -211,6 +211,15 @@ EV-Sathi-HACKKJSCE/lib/
 └── main.dart                  # Heart of this App.
 ```
 
+## APP Screenshots
+
+<div align="center">
+<img alt="EV-Sathi-HACKKJSCE Animation" src="https://user-images.githubusercontent.com/42498830/162600017-2c284c5b-427c-4cfa-9f59-0ecfc6d3e823.gif">
+</div>
+
+[![EV Sathi 1](images/EV_Sathi_1.png)](https://www.youtube.com/watch?v=qD1OsIGTaZE)
+
+[![EV Sathi 2](images/EV_Sathi_2.png)](https://www.youtube.com/watch?v=qD1OsIGTaZE)
 
 
 
