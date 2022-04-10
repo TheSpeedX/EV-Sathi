@@ -205,7 +205,7 @@ EV-Sathi/lib/
 ## APP Screenshots
 
 <div align="center">
-<img alt="EV-Sathi-HACKKJSCE Animation" src="https://user-images.githubusercontent.com/42498830/162600017-2c284c5b-427c-4cfa-9f59-0ecfc6d3e823.gif">
+<img alt="EV-Sathi Animation" src="https://user-images.githubusercontent.com/42498830/162600017-2c284c5b-427c-4cfa-9f59-0ecfc6d3e823.gif">
 </div>
 
 [![EV Sathi 1](images/EV_Sathi_1.png)](https://youtu.be/L6JABaiIMrI)
@@ -236,7 +236,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Team Name - Team Stellar Hackers **(HackStack Hackathon 2022)**
 
-Project Link: [https://github.com/pnkr01/EV-Sathi-HACKKJSCE/](https://github.com/pnkr01/EV-Sathi-HACKKJSCE/)
+Project Link: [https://github.com/TheSpeedX/EV-Sathi/](https://github.com/TheSpeedX/EV-Sathi/)
 
 Youtube link: [https://www.youtube.com/watch?v=qD1OsIGTaZE](https://youtu.be/L6JABaiIMrI)
 
