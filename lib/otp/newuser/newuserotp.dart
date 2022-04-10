@@ -1,6 +1,7 @@
-import 'package:ev_station/otp/newuser/components/buildbodyotp.dart';
-import 'package:ev_station/otp/newuser/components/header_new_user_otp.dart';
 import 'package:flutter/material.dart';
+
+import 'components/buildbodyotp.dart';
+import 'components/header_new_user_otp.dart';
 
 class NewUserOTPScreen extends StatefulWidget {
   final String phone;
