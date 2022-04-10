@@ -1,6 +1,6 @@
 <br />
 <div align="center">
-  <a href="https://github.com/pnkr01/EV-Sathi-HACKKJSCE">
+  <a href="https://github.com/TheSpeedX/EV-Sathi/">
     <img src="images/electric.png" alt="Logo" width="80" height="80">
   </a>
   <h1 align="center"><b>EV-Sathi</b></h1>
@@ -19,9 +19,9 @@
 <br />
 <a href="https://www.youtube.com/watch?v=qD1OsIGTaZE">View Demo</a>
 ·
-<a href="https://github.com/pnkr01/EV-Sathi-HACKKJSCE/issues">Report Bug</a>
+<a href="https://github.com/TheSpeedX/EV-Sathi/issues">Report Bug</a>
 ·
-<a href="https://github.com/pnkr01/EV-Sathi-HACKKJSCE/issues">Request Feature</a>
+<a href="https://github.com/TheSpeedX/EV-Sathi/issues">Request Feature</a>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -66,15 +66,6 @@ Suppose you are a EV owner, you are out on a trip and you suddenly realise that 
 
 Our application uses a cost-effective solution for EV owners to find the nearest charging station and recharge their vehicles. It also supports booking of charging stations for those who want to recharge their vehicles at a scheduled time.The dynamic nature of the application makes it easy to manage multiple vehicles from one device.
 
-## About The Project
-
-<div align="center">
-<img alt="EV-Sathi-HACKKJSCE Animation" src="https://user-images.githubusercontent.com/42498830/162531758-23076c0b-33ac-4e56-99f3-7a8960332537.gif">
-</div>
-
-Suppose you are a EV owner, you are out on a trip and you suddenly realise that you have to recharge your EV. You are not sure where to recharge your EV. You are not sure if the EV charging station is open or has the suitable charger for your vehicle. This is where EV-Sathi comes in.
-
-Our application uses a cost-effective solution for EV owners to find the nearest charging station and recharge their vehicles. It also supports booking of charging stations for those who want to recharge their vehicles at a scheduled time.The dynamic nature of the application makes it easy to manage multiple vehicles from one device.
 
 ### Key Features Implemented
 
@@ -236,4 +227,19 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+Team Name - Team Stellar Hackers **(HackStack Hackathon 2022)**
+
+Project Link: [https://github.com/pnkr01/EV-Sathi-HACKKJSCE/](https://github.com/pnkr01/EV-Sathi-HACKKJSCE/)
+
+Youtube link: [https://www.youtube.com/watch?v=qD1OsIGTaZE](https://www.youtube.com/watch?v=qD1OsIGTaZE)
+
+Made with ♥ by Team Stellar Hackers
+
 
