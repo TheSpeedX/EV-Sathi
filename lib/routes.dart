@@ -4,4 +4,7 @@ import 'package:flutter/material.dart';
 
 final Map<String, WidgetBuilder> routes = {
   SplashScreen.routeName : (context) => const SplashScreen(),
+  SignInScreen.routeName :(context) =>  const SignInScreen(),
+  OTPScreen.routename : ((context) =>  OTPScreen()),
+  LogInCumSignUpScreen.routename : ((context) => const LogInCumSignUpScreen()),
 };
