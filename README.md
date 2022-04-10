@@ -1,7 +1,7 @@
 <br />
 <div align="center">
-  <a href="https://github.com/Zeo-shark/EV-Sathi">
-    <img src="image/electric.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/pnkr01/EV-Sathi-HACKKJSCE">
+    <img src="images/electric.png" alt="Logo" width="80" height="80">
   </a>
   <h1 align="center"><b>EV-Sathi</b></h1>
 
@@ -9,20 +9,19 @@
     Your Solution to Re-Charging EV Vehicles.
     <br />
   </p>
-<img alt="EV-Sathi Animation" src="https://user-images.githubusercontent.com/42498830/162531758-23076c0b-33ac-4e56-99f3-7a8960332537.gif">
   <br />
-<img src="https://img.shields.io/github/languages/code-size/Zeo-Shark/EV-Sathi?style=flat-square" alt="Code size" />
-<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Zeo-Shark/EV-Sathi?style=flat-square">
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Zeo-Shark/EV-Sathi?style=flat-square">
-<img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/Zeo-Shark/EV-Sathi?style=flat-square">
-<img alt="GitHub Repo issues" src="https://img.shields.io/github/issues/Zeo-Shark/EV-Sathi?style=flat-square">
-
+<img src="https://img.shields.io/github/languages/code-size/pnkr01/EV-Sathi-HACKKJSCE?style=flat-square" alt="Code size" />
+<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/pnkr01/EV-Sathi-HACKKJSCE?style=flat-square">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/pnkr01/EV-Sathi-HACKKJSCE?style=flat-square">
+<img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/pnkr01/EV-Sathi-HACKKJSCE?style=flat-square">
+<img alt="GitHub Repo issues" src="https://img.shields.io/github/issues/pnkr01/EV-Sathi-HACKKJSCE?style=flat-square">
+  
 <br />
-<a href="https://youtu.be/qD1OsIGTaZE">View Demo</a>
+<a href="https://www.youtube.com/watch?v=qD1OsIGTaZE">View Demo</a>
 ·
-<a href="https://github.com/Zeo-shark/EV-Sathi/issues">Report Bug</a>
+<a href="https://github.com/pnkr01/EV-Sathi-HACKKJSCE/issues">Report Bug</a>
 ·
-<a href="https://github.com/Zeo-shark/EV-Sathi/issues">Request Feature</a>
+<a href="https://github.com/pnkr01/EV-Sathi-HACKKJSCE/issues">Request Feature</a>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -30,45 +29,30 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
+      <a href="#why-ev-sathi-">Why EV-Sathi</a>
+    </li>
+    <li>
       <a href="#about-the-project">About The Project</a>
     </li>
     <li>
-      <a href="#features">Features</a>
+      <a href="#Key-Features-Implemented">Key Features Implemented</a>
     </li>
     <li>
-      <a href="#tech-stack">Tech Stack</a>
+      <a href="#tech-stacks">Tech Stacks</a>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
     </li>
-    <li><a href="#screenshots">ScreenShots</a></li>
+    <li><a href="#app-screenshots">App ScreenShots</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
-## About The Project
+## Why EV-Sathi ?
+
+We examine a new, upcoming generation of vehicles that run on electric power supplied by onboard batteries in a smart city environment. Charging at home and in public areas are the best recharging option. As charging stations are shared resources, Cooperating EVs have the potential to avoid unbalanced use of charging stations and long wait times.
 
 India has seen a significant increase in the number of electric vehicles (EVs) since the past year. Yet the EV owners still face trouble while trying to recharge their vehicles.
 
-Our application uses a cost-effective solution for EV owners to find the nearest charging station and recharge their vehicles. It also supports booking of charging stations for those who want to recharge their vehicles at a scheduled time.The dynamic nature of the application makes it easy to manage multiple vehicles from one device.
-
-
-### Features
-
-- Awesome UX and easy to use friendly interface
-
-- Manage multiple vehicles from one device
-
-- Find the charging stations near you in a Built-in Map with real-time location updates
-
-- Get status of EV charging stations along with distance, chargers, etc.
-
-- Get a dyanamic price while booking slot for your EV based on currently free slots.
-
-- Navigation system to help you find the charging station in a short time using Direction and Places API.
-
-- View booking history of your EV
-
-- Estimate cost and time for your EV in a journey with an awesome Pricing Calculator.
