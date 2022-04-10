@@ -59,7 +59,7 @@ India has seen a significant increase in the number of electric vehicles (EVs) s
 ## About The Project
 
 <div align="center">
-<img alt="EV-Sathi-HACKKJSCE Animation" src="https://user-images.githubusercontent.com/42498830/162531758-23076c0b-33ac-4e56-99f3-7a8960332537.gif">
+<img alt="EV-Sathi-HACKStack Animation" src="https://user-images.githubusercontent.com/42498830/162531758-23076c0b-33ac-4e56-99f3-7a8960332537.gif">
 </div>
 
 Suppose you are a EV owner, you are out on a trip and you suddenly realise that you have to recharge your EV. You are not sure where to recharge your EV. You are not sure if the EV charging station is open or has the suitable charger for your vehicle. This is where EV-Sathi comes in.
@@ -131,8 +131,8 @@ If your version is not upto date, follow these steps to upgrade:
 
 ### *Development Environment: For setting up the development environment, follow the steps given below.*
 
-- Clone this repository after forking using git clone <https://github.com/pnkr01/EV-Sathi-HACKKJSCE.git>
-- cd into `EV-Sathi-HACKKJSCE`
+- Clone this repository after forking using git clone <https://github.com/TheSpeedX/EV-Sathi.git>
+- cd into `EV-Sathi`
 - Check for flutter setup and connected devices using `flutter doctor`
 - Get all the dependencies using `flutter pub get`
 - Go Inside `lib --> screen --> contsant` .
@@ -158,7 +158,7 @@ samples, guidance on mobile development, and a full API reference.
 This project follows MVVM architecture with following structure:
 
 ```text
-EV-Sathi-HACKKJSCE/lib/
+EV-Sathi/lib/
 ├── components/                                    # resuable widget i.e buttons,card,error dialog,loading dialog, marker design, text field.
      ├── button.dart
      ├── button_nav_route.dart
@@ -208,14 +208,14 @@ EV-Sathi-HACKKJSCE/lib/
 <img alt="EV-Sathi-HACKKJSCE Animation" src="https://user-images.githubusercontent.com/42498830/162600017-2c284c5b-427c-4cfa-9f59-0ecfc6d3e823.gif">
 </div>
 
-[![EV Sathi 1](images/EV_Sathi_1.png)](https://www.youtube.com/watch?v=qD1OsIGTaZE)
+[![EV Sathi 1](images/EV_Sathi_1.png)](https://youtu.be/L6JABaiIMrI)
 
-[![EV Sathi 2](images/EV_Sathi_2.png)](https://www.youtube.com/watch?v=qD1OsIGTaZE)
+[![EV Sathi 2](images/EV_Sathi_2.png)](https://youtu.be/L6JABaiIMrI)
 
 
 ### View Demo
 
-[![EV Sathi Demo](https://img.youtube.com/vi/qD1OsIGTaZE/maxresdefault.jpg)](https://www.youtube.com/watch?v=qD1OsIGTaZE)
+[![EV Sathi Demo](https://img.youtube.com/vi/qD1OsIGTaZE/maxresdefault.jpg)](https://youtu.be/L6JABaiIMrI)
 
 
 ## Contributing
@@ -238,7 +238,7 @@ Team Name - Team Stellar Hackers **(HackStack Hackathon 2022)**
 
 Project Link: [https://github.com/pnkr01/EV-Sathi-HACKKJSCE/](https://github.com/pnkr01/EV-Sathi-HACKKJSCE/)
 
-Youtube link: [https://www.youtube.com/watch?v=qD1OsIGTaZE](https://www.youtube.com/watch?v=qD1OsIGTaZE)
+Youtube link: [https://www.youtube.com/watch?v=qD1OsIGTaZE](https://youtu.be/L6JABaiIMrI)
 
 Made with ♥ by Team Stellar Hackers
 
