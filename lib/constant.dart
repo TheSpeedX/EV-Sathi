@@ -2,7 +2,6 @@ import 'package:ev_sathi/size_config.dart';
 import 'package:flutter/material.dart';
 
 
-
 const primaryColor = Color.fromARGB(15, 75, 21, 161);
 const primaryLightColor = Color(0xFFFECDEF);
 const primaryGradientColor = LinearGradient(
@@ -36,6 +35,22 @@ const String namelNullError = "Please Enter your name";
 const String phoneNumberNullError = "Please Enter your phone number";
 const String addressNullError = "Please Enter your address";
 
+final otpInputDecoration = InputDecoration(
+  contentPadding:
+      EdgeInsets.symmetric(vertical: getPropotionateScreenWidth(15.0)),
+  border: const OutlineInputBorder(),
+  focusedBorder: customInputBorder(),
+  enabledBorder: customInputBorder(),
+);
+
+OutlineInputBorder customInputBorder() {
+  return OutlineInputBorder(
+    borderRadius: BorderRadius.circular(getPropotionateScreenWidth(15.0)),
+    borderSide: const BorderSide(
+      color: textColor,
+    ),
+  );
+}
 
 //Splash Screen
 const String backtText = "Back";
