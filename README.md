@@ -233,9 +233,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 Team Name - Team Stellar Hackers **(HackStack Hackathon 2022)**
-Gyanaranjan [https://github.com/TheSpeedX]
-Sourav Bera [https://github.com/Zeo-shark]
-Pawan Kumar [https://github.com/pnkr01]
+[Gyanaranjan](https://github.com/TheSpeedX)
+[Sourav Bera] [https://github.com/Zeo-shark]
+[Pawan Kumar] (https://github.com/pnkr01)
 
 Project Link: [https://github.com/TheSpeedX/EV-Sathi/](https://github.com/TheSpeedX/EV-Sathi/)
 
